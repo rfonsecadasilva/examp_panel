@@ -1,4 +1,4 @@
-from plot import Hs_Mfv_fig
+from .plot import Hs_Mfv_fig
 import xarray as xr
 import numpy as np
 import panel as pn

@@ -47,7 +47,7 @@ from panel.io.pyodide import init_doc, write_doc
 
 init_doc()
 
-from plot import Hs_Mfv_fig
+from .plot import Hs_Mfv_fig
 import xarray as xr
 import numpy as np
 import panel as pn
