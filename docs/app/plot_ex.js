@@ -52,7 +52,7 @@ import xarray as xr
 import numpy as np
 import panel as pn
 pn.extension()
-path="../data/"
+path="data/"
 ds=xr.merge([xr.open_dataset(path+i) for i in ["GRID.nc","HSIG.nc","MVEL.nc"]])
 Nx=18
 dep_levels=np.arange(9)/Nx
